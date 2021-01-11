@@ -3,7 +3,7 @@ import sys
 import os
 
 
-# Disable tensorflow compilation warnings
+# Disable tensorflow 
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 import tensorflow as tf
 
